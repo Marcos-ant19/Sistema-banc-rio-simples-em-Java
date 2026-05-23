@@ -18,9 +18,10 @@ public class PagamentoPix extends Pagamento{
 
     public void processarPagamento(){
         System.out.println("Pagamento realizado com sucesso!");
-        return;
     }
 
+    @Override
+    
     public void exibirDados() {
         System.out.println("Valor informando: "+ getValor());
         System.out.println("Descrição: "+ getDescricao());
