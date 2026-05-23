@@ -1,1 +1,1 @@
-# Sistema-banc-rio-simples-em-Java
+# Sistema-bancario-simples-em-Java
