@@ -14,7 +14,6 @@ public class PagamentoBoleto extends Pagamento{
 
     public void processarPagamento(){
          System.out.println("Pagamento realizado com sucesso!");
-         return;
     }
 
     public void exibirDados(){

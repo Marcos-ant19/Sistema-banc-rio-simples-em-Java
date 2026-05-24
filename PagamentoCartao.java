@@ -18,12 +18,11 @@ public class PagamentoCartao extends Pagamento {
 
     public void processarPagamento(){
          System.out.println("Pagamento realizado com sucesso!");
-         return;
     }
 
     public void exibirDados() {
         System.out.println("Valor informando: "+ getValor());
         System.out.println("Descrição: "+ getDescricao());
-        System.out.println("Codigo de barras: "+ getNumeroCartao());
+        System.out.println("Numero do cartão: "+ getNumeroCartao());
     }
 }

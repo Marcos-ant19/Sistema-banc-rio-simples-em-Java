@@ -23,10 +23,7 @@ public abstract class Pagamento{
         return this.descricao;
     }
 
-    public void processarPagamento(){
-        System.out.println("Pagamento realizado com sucesso!");
-        return;
-    }
+    public abstract void processarPagamento();
 
     public void exibirDados(){
         System.out.println("Valor informando: "+ getValor());

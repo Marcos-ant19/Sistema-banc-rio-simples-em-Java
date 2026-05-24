@@ -25,6 +25,6 @@ public class PagamentoPix extends Pagamento{
     public void exibirDados() {
         System.out.println("Valor informando: "+ getValor());
         System.out.println("Descrição: "+ getDescricao());
-        System.out.println("Codigo de barras: "+ getChavePix());
+        System.out.println("Chave pix: "+ getChavePix());
     }
 }
